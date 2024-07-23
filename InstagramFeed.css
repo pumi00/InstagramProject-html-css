@@ -1,0 +1,72 @@
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+}
+
+#Home .container{
+    widht: 100%;
+    height: auto;
+}
+
+#Home .container header{
+    widht: 100%;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+#Home .container header .Title{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#Home .container .contained{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.post{
+    width: 500px;
+    margin: 20px auto;
+}
+
+.post .post-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.post .post-body{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.post .post-body img{
+    widht: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post .post-footer{
+    widht: 100%;
+    height: auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.post .post-footer p{
+    text-align: justify;
+    text-transform: capitalize;
+}
